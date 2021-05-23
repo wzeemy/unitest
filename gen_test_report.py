@@ -5,7 +5,7 @@ from HTMLTestRunner import HTMLTestRunner
 import unittest
 
 # 3.定义一个测试报告的文件
-report_file = ".\test_report.html"
+report_file = "./test_report.html"
 
 # 4.创建套件
 suite = unittest.TestLoader().discover('.',pattern='test*.py')
